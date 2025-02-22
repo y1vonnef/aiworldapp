@@ -17,7 +17,7 @@ app.prepare().then(() => {
   const httpServer = createServer(handler);
 
   const io = new Server(httpServer, {
-    allowEIO3: true,
+    allowEIO4: true,
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
