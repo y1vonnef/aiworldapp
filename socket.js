@@ -2,4 +2,4 @@
 
 import { io } from "socket.io-client";
 
-export const socket = io("wss://replit.com/@YvonneFang1/aiworldapp"); //makes connection to the port
+export const socket = io("wss://aiworldapp-YvonneFang1.replit.app"); //makes connection to the port
