@@ -22,7 +22,6 @@ app.prepare().then(() => {
       origin: "*",
       methods: ["GET", "POST"],
     },
-    transports: ["websocket"]
   });
 
   io.on("connection", (socket) => {
