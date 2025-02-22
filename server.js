@@ -22,7 +22,6 @@ app.prepare().then(() => {
       origin: "*",
       methods: ["GET", "POST"],
     },
-    path: "/socket.io",
     transports: ["websocket"]
   });
 
