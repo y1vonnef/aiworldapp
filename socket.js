@@ -2,4 +2,4 @@
 
 import { io } from "socket.io-client";
 
-export const socket = io("http://localhost:3000/"); //makes connection to the port
+export const socket = io("wss://aiworldapp.yvonnefang1.repl.co"); //makes connection to the port
