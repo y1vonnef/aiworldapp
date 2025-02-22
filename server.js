@@ -22,7 +22,7 @@ app.prepare().then(() => {
       origin: "*",
       methods: ["GET", "POST"],
     },
-    //transports: ["websocket", "polling"]
+    transports: ["websocket"]
   });
 
   io.on("connection", (socket) => {
