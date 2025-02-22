@@ -17,12 +17,12 @@ app.prepare().then(() => {
   const httpServer = createServer(handler);
 
   const io = new Server(httpServer, {
-    allowEIO4: true,
+    allowEIO3: true,
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
     },
-    transports: ["websocket", "polling"]
+    //transports: ["websocket", "polling"]
   });
 
   io.on("connection", (socket) => {
